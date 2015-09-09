@@ -3,6 +3,10 @@
 }
 a {
 	color: #fff;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
 }
 h1, h2, h3, p{
 	font-family: "Lato";

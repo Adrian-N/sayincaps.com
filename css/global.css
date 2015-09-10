@@ -1,0 +1,88 @@
+/*CSS for all pages - sayincaps.com*/
+*{
+	/*Quick Reset*/
+	margin:0;padding:0;
+}
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, p{
+	font-family: "Lato";
+	margin: 5px;
+	color: #ffffff;	
+}
+h2, h3, p{
+	font-weight: 900;
+}
+h1{
+	font-size: 60px;
+}
+
+h3{
+	font-size: 30px;
+	font-family: calibri, arial;
+	font-weight: 100;
+}
+p{
+	font-size: 23px;
+	font-family: calibri, arial;
+	font-weight: 100;
+}
+section{
+	width: 45%;
+	margin: auto;
+}
+header{
+	text-align: left;
+	margin-bottom: 70px;
+}
+form{
+	text-align: center;
+	width: 100%;
+}
+
+/******************
+	#MOBILE
+******************/
+@media screen and (max-width: 1590px){
+
+	h1{
+		font-size: 40px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+
+	section{
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 800px){
+
+	h1{
+		font-size: 35px;
+		margin-top: 10px;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+
+	p{
+		font-size: 15px;
+	}
+
+	section{
+		width: 100%;
+	}
+
+	header{
+		margin-bottom: 20px;
+	}
+}

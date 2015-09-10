@@ -1,4 +1,7 @@
+#index page as 404
 ErrorDocument 404 /
+#
+#delete .php
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 DirectorySlash Off
